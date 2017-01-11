@@ -18,13 +18,14 @@ $(document).ready(function(){
     });
 
     $('.side_box').click(function(event){
+      event.stopPropagation();
       $(this).siblings().css('background-color', random_color());  //changes the color of siblings
-      event.stopPropagation();             //stops the event from propogating to the big box
     });
 
     $('.middle_box').click(function(event){     //changes the color of large box
-      $(this).parent().css('background-color', random_color());
       event.stopPropagation();
+      $(this).parent().css('background-color', random_color());
+
     });
 
 });
