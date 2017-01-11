@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 50px 100px;
+  background: pink;
+  /*width: 800px;
+  height:200px;*/
+  display: inline-block;
+}
+
+.left {
+  /*position: absolute;*/
+  background: lightblue;
+  width: 200px;
+  height:100px;
+  margin: 0 auto;
+  display: inline-block;
+  /*float: left;*/
+}
+
+.middle {
+  /*position: absolute;*/
+  background: lightblue;
+  width: 200px;
+  height:100px;
+  /*margin: 50px 25px 50px 25px;*/
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.right {
+  /*position: absolute;*/
+  background: lightblue;
+  width: 200px;
+  height:100px;
+  margin: 0 auto;
+  display: inline-block;
+  /*float: right;*/
+}

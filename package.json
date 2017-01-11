@@ -1,0 +1,25 @@
+{
+  "name": "morning-exercise-w05d03-html-css-jquery",
+  "version": "1.0.0",
+  "description": "## Create one large box, and three small boxes within the large box. All these boxes should have random colors assigned to them(think random function!)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritz1337/morning-exercise-w05d03-html-css-jquery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritz1337/morning-exercise-w05d03-html-css-jquery/issues"
+  },
+  "homepage": "https://github.com/ritz1337/morning-exercise-w05d03-html-css-jquery#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  }
+}
